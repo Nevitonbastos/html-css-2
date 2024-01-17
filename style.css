@@ -30,9 +30,9 @@ footer{
 
 
 .logo {
+    height: 100%;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 50px;
     margin: auto;
     margin-top: 10px;
     padding: 20px;
@@ -52,7 +52,7 @@ footer{
     height: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center ;
+    align-items: center;
     font-size: 1.8rem;
 }
  

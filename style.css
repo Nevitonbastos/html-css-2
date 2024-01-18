@@ -40,6 +40,7 @@ footer{
     font-family: 'Srisakdi', system-ui;
     letter-spacing: 0.4rem;
     cursor: pointer;
+    display: inline-block;
 }
 
 .logo p{
@@ -51,6 +52,9 @@ footer{
     text-transform: uppercase;
     height: 100%;
     display: flex;
+    display: inline-block;
+    position: relative;
+    left: 29%;
     justify-content: space-around;
     align-items: center;
     font-size: 1.8rem;

@@ -18,7 +18,7 @@ body{
 
 
 footer{
-    background-color: #fff;
+    background-color: black;
     height: 400px;
 }
 
@@ -35,7 +35,7 @@ footer{
     font-family: 'Srisakdi', system-ui;
     letter-spacing: 0.4rem;
     cursor: pointer;
-    display: inline-block;
+    
 }
 
 .logo p{
@@ -48,18 +48,20 @@ footer{
     text-transform: uppercase;
     height: 100%;
     display: flex;
-    display: inline-block;
     position: relative;
-    left: 29%;
-    justify-content: space-around;
+    bottom: 65px;
+    right: 60px;
+    justify-content: flex-end;
     align-items: center;
     font-size: 1.8rem;
+    margin: auto;
 }
  
 .list-itens{
     display: flex;
     list-style: none;
     gap: 20px;
+    
 }
 
 .menu .list-itens a{
@@ -103,22 +105,21 @@ main{
     align-items: center;
 }
 
-.imagens {
+.imagens{
     display: flex;
     justify-content: space-around;
 } 
 
-img {
-    padding: 100px;
+img{
+    padding: 50px;
 }
 
-p {
-    display: flex;
+#paragrafos{
     font-size: 2rem;
 }
 
 .main-content h1{
-    min-width:300px;
+    min-width: 350px;
     max-width: 650px;
     margin: auto;
     font-size: 4rem;
@@ -167,10 +168,10 @@ p {
  }
 
  .conteudo h2 {
-    color: rgb(228, 194, 6);
+    color: rgb(218, 191, 42);
     font-size: 3rem;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
  }
 
  .conteudo p {

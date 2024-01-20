@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Josefin+Sans:wght@100 & family= Lato:wght@400;700 & display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Srisakdi', system-ui;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+

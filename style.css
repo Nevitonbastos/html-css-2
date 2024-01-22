@@ -70,6 +70,7 @@ footer{
     padding: 1.5rem;
     transform: 2ms ease-in;
     position: relative;
+    font-weight: bolder;
 }
 
 .menu .list-itens a::before {

@@ -107,16 +107,19 @@ main{
 }
 
 .imagens{
+    width: 100%;
     display: flex;
     justify-content: space-around;
 } 
 
 img{
     padding: 50px;
+    
 }
 
 #paragrafos{
     font-size: 2rem;
+    
 }
 
 .main-content h1{

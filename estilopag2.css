@@ -22,56 +22,49 @@ header h1 {
 }
 
 table{
+    margin-top: 30px;
+    margin: auto;
     border-collapse: collapse;
 }
 
 caption{
+    margin-bottom: 30px;
     font-size: 1.4em;
     font-weight: bolder;
     padding: 5px;
 }
 th,td{
     font-weight: bolder;
-    border: 1px solid black;
+    border: 1px solid rgb(221, 219, 219);
     text-align: center;
     padding: 10px;
+    width: 150px; 
+    background-color: rgba(193, 227, 238, 0.582);
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 30px;
-
+th{
+    background-color: rgba(0, 0, 139, 0.74);
+    color: white;
 }
 
-p{
-    text-align: center;
+td.cor1{
+    background-color: green;
+   color: black;
+}
+td.cor2{
+    background-color: rgb(33, 171, 218);
+    ccolor: black;
+}
+td.cor3{
+    background-color: rgb(209, 209, 39);
+    color: black;
+}
+td.cor4{
+    background-color: rgb(94, 12, 172);
+    color: black;
 }
 
-img{
-    width: 350px;
-    height: 350px;
-    padding: 10px;
-}
 
-.imagem1{
-    color: #fff;
-    background-color: black;
-    border: 5px solid black;
-    border-radius: 10px;
-}
-
-.container2{
-    margin-top: 30px  ;
-    border: 1px solid black;
-    width: 900px;
-}
-
-p{
-    
-    
-}
 
 
 

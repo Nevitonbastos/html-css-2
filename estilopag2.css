@@ -64,6 +64,44 @@ td.cor4{
     color: black;
 }
 
+.principal{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.picture{
+    background-color: gray;
+    color: #fff;
+    border: 1px solid black; 
+    padding: 5px;
+    width: 900px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.picture2{
+    background-color: gray;
+    color: #fff;
+    border: 1px solid black; 
+    padding: 5px;
+    width: 900px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+img,p{
+    display: inline-block;
+}
+
+
+
+
+
 
 
 

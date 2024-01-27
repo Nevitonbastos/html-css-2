@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Anton & family= Josefin+Sans:wght@100 & family= Lato:wght@400;700 & display=swap');
 
+@import url('https://fonts.googleapis.com/css2? family= Righteous & display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,7 +11,7 @@ html,body{
     height: 100vh;
     font-size: 62.5%;
     color: black;
-    font-family: 'Srisakdi', system-ui;
+    font-family: 'Righteous', sans-serif ;
 }
 
 body{
@@ -25,16 +27,17 @@ footer{
 
 
 .logo {
-    height: 100%;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(25, 25, 34);
+    height: 100px;
+    color: white;
     margin: auto;
     margin-top: 10px;
     padding: 20px;
     font-size: 2.8rem;
-    font-family: 'Srisakdi', system-ui;
+    font-family: 'Righteous', sans-serif ;
     letter-spacing: 0.4rem;
     cursor: pointer;
+
     
 }
 
@@ -66,7 +69,7 @@ footer{
 
 .menu .list-itens a{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 1.5rem;
     transform: 2ms ease-in;
     position: relative;
@@ -80,13 +83,24 @@ footer{
     left: 0;
     width: 0px;
     height: 2px;
-    background-color: black;
+    background-color: white;
     transition: all 1.5s ease;
 
 }
 
 .menu .list-itens a:hover:before {
     width: 100px;
+}
+
+.container {
+    background-image: url("imagens/1-musculacao2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
 }
 
 main{
@@ -215,11 +229,10 @@ img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90%;
+    width: 100%;
     height: 400px;
     border: solid  1px white;
     margin: auto;
-    border-radius: 15px;
     margin-bottom: 50px;
  }
 

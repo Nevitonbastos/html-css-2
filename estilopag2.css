@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Anton & family= Josefin+Sans:wght@100 & family= Lato:wght@400;700 & display=swap');
 
+@import url('https://fonts.googleapis.com/css2? family= Righteous & display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,7 +9,7 @@
 
 body{
     background-color: #fff;
-    font-family: 'Srisakdi', system-ui;
+    font-family: 'Righteous', sans-serif ;
 }
 
 a{
@@ -62,6 +64,12 @@ td.cor3{
 td.cor4{
     background-color: rgb(94, 12, 172);
     color: black;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.8rem;
 }
 
 .principal{

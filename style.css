@@ -141,31 +141,36 @@ img{
 }
 
 .btn{
-    margin-top: 30px;
+    margin: 30px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    padding: 5px;
 }
 
 .btn button{
-    min-width: 200px;
-    max-width: 650px;
+    min-width: 150px;
+    max-width: 350px;
     height: 60px;
     cursor: pointer;
-    border: 2px solid rgb(11, 11, 184);
+    border: 2px solid white;
     color: white;
     text-transform: uppercase;
     background-color: rgb(6, 6, 185);
     font-weight: bold;
     letter-spacing: 0,2rem;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 
- .btn button a {
+ .btn a {
     padding: 5px;
     text-decoration: none;
     color: rgb(226, 219, 219);
+ }
+
+ .btn a:hover{
+    text-decoration: underline;
  }
 
  .conteudo {
@@ -186,7 +191,9 @@ img{
     margin-bottom: 20px;
  }
 
-
+.btn2{
+    margin: 30px;
+}
 .btn2 button{
     margin: auto;
     margin-bottom: 10px;
@@ -194,7 +201,7 @@ img{
     max-width: 650px;
     height: 50px;
     cursor: pointer;
-    border: solid 2px darkblue;
+    border: solid 2px rgb(255, 255, 255);
     background-color: darkblue;
     text-transform: uppercase;
     border-radius: 10px;

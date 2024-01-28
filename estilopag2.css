@@ -28,6 +28,7 @@ header h1 {
 }
 
 table{
+    width: 70%;
     margin-top: 30px;
     margin: auto;
     border-collapse: collapse;
@@ -47,7 +48,8 @@ th,td{
     padding: 10px;
     width: 150px; 
     background-color: rgba(193, 227, 238, 0.582);
-}
+    cursor: pointer;
+}  
 
 th{
     background-color: rgba(0, 0, 139, 0.74);
@@ -78,7 +80,7 @@ h1{
     font-size: 1.8rem;
 }
 
-.principal{
+main.principal{
     margin-top: 30px;
     display: flex;
     justify-content: center;

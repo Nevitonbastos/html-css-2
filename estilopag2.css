@@ -81,7 +81,8 @@ h1{
 }
 
 main.principal{
-    margin-top: 30px;
+    margin: 30px;
+    padding: 15px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -89,19 +90,10 @@ main.principal{
     
 }
 
-.picture{
-    background-color: gray;
-    color: #fff;
-    border: 1px solid black; 
-    padding: 5px;
-    width: 900px;
-    margin: 20px;
-    display: flex;
-    justify-content: flex-start;
-}
 
-.picture2{
-    background-color: gray;
+.picture{
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgb(163, 167, 165)),url("imagens/IMG_2050.jpg") no-repeat ;
+    background-size: cover;
     color: #fff;
     border: 1px solid black; 
     padding: 5px;
@@ -109,6 +101,20 @@ main.principal{
     margin: 20px;
     display: flex;
     justify-content: flex-end;
+    border-radius:10px ;
+}
+
+
+.picture2{
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgb(163, 167, 165)),url("imagens/Aline\ Santos-25.jpg") no-repeat center;
+    background-size: cover;
+    color: #fff;
+    border: 1px solid black; 
+    padding: 5px;
+    width: 900px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
 }
 img,p{
     display: inline-block;

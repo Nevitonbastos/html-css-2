@@ -153,15 +153,14 @@ img{
     height: 60px;
     cursor: pointer;
     border: 2px solid white;
-    color: white;
+    color: #002fff;
+    background-color: #0421a1;
     text-transform: uppercase;
-    background-color: rgb(6, 6, 185);
     font-weight: bold;
     letter-spacing: 0,2rem;
     border-radius: 10px;
     box-sizing: border-box;
 }
-
 
  .btn a {
     padding: 5px;
@@ -219,7 +218,10 @@ img{
     margin-top: 50px;
     margin: auto;
 }
- .p1,.p2,.p3,.p4{
+ .p1,
+ .p2,
+ .p3,
+ .p4{
     background-image: url("imagens/Aline\ Santos-25.jpg");
     background-position: center;
     background-repeat: no-repeat;

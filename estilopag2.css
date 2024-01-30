@@ -30,32 +30,21 @@ header a{
     width:100%;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin: 40px;
 }
 .nav a {
     text-decoration: none;
+    margin: 10px;
     color: white;
-    padding: 1.5rem;
-    transform: 1ms ease-in;
-    position: relative;
+    padding: 15px;
     font-weight: bolder;
+    transition: all 0.5s;
 }
 .nav a:hover{
-    color: rgba(20, 20, 201, 0.863);
-}
-.nav a::before{
-    content: " ";
-    position: absolute;
-    bottom: 0;
-    left: 1;
-    width: 0px;
-    height: 1px;
-    background-color: white;
-   
+    background-color: rgba(220, 220, 220, 0.521);
+    border-radius: 10px;
 } 
-.nav a:hover::before{
-    width: 100px;
-}
+
 
 h1{
     color: white;

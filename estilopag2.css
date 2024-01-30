@@ -13,64 +13,48 @@ body{
     background-attachment: fixed;
     height: 100vh;
     font-family: 'Righteous', sans-serif ;
+    height: 100vh;
 }
 
 
-a{
+header a{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-header h1 {
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-table{
-    width: 70%;
+.nav{
+    width:100%;
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
-    margin: auto;
-    border-collapse: collapse;
 }
-
-caption{
+.nav a {
+    text-decoration: none;
     color: white;
-    margin-bottom: 30px;
-    font-size: 1.4em;
+    padding: 1.5rem;
+    transform: 1ms ease-in;
+    position: relative;
     font-weight: bolder;
-    padding: 5px;
 }
-th,td{
-    font-weight: bolder;
-    border: 1px solid rgb(221, 219, 219);
-    text-align: center;
-    padding: 10px;
-    width: 150px; 
-    background-color: rgba(193, 227, 238, 0.582);
-    cursor: pointer;
-}  
-
-th{
-    background-color: rgba(0, 0, 139, 0.74);
-    color: white;
+.nav a:hover{
+    color: rgba(20, 20, 201, 0.863);
 }
-
-td.cor1{
-    background-color: green;
-   color: black;
-}
-td.cor2{
-    background-color: rgb(33, 171, 218);
-    ccolor: black;
-}
-td.cor3{
-    background-color: rgb(209, 209, 39);
-    color: black;
-}
-td.cor4{
-    background-color: rgb(94, 12, 172);
-    color: black;
+.nav a::before{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 1;
+    width: 0px;
+    height: 1px;
+    background-color: white;
+   
+} 
+.nav a:hover::before{
+    width: 100px;
 }
 
 h1{
@@ -81,23 +65,23 @@ h1{
 }
 
 main.principal{
-    margin: 30px;
-    padding: 15px;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
 }
 
 
+
 .picture{
-    background: linear-gradient(rgba(0, 0, 0, 0.678),rgb(163, 167, 165)),url("imagens/IMG_2050.jpg") no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgb(163, 167, 165)),url("imagens/IMG_2050.jpg"),no-repeat ;
     background-size: cover;
     color: #fff;
     border: 1px solid black; 
     padding: 5px;
     width: 900px;
+    height: 400px;
     margin: 20px;
     display: flex;
     justify-content: flex-end;
@@ -112,13 +96,45 @@ main.principal{
     border: 1px solid black; 
     padding: 5px;
     width: 900px;
+    height: 400px;
     margin: 20px;
     display: flex;
     justify-content: flex-start;
+    border-radius:10px ;
+    
 }
-img,p{
-    display: inline-block;
+
+.picture3{
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgb(163, 167, 165)),url("imagens/Krav_Maga_autocontrol.jpg") no-repeat top right;
+    background-size: cover;
+    color: #fff;
+    border: 1px solid black; 
+    padding: 5px;
+    width: 900px;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius:10px ;
 }
+
+.picture4{
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgb(163, 167, 165)),url("imagens/pilates.png") no-repeat center;
+    background-size: cover;
+    color: #fff;
+    border: 1px solid black; 
+    padding: 5px;
+    width: 900px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius:10px ;
+}
+
+ 
+
+
+
 
 
 

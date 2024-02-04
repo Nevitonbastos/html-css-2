@@ -28,13 +28,11 @@ footer{
 
 
 .logo {
-    
-    height: 100px;
+    background-color: black;
+    height: 90px;
     color: white;
-    margin: auto;
-    margin-top: 10px;
-    padding: 20px;
     font-size: 2.8rem;
+    padding: 20px;
     font-family: 'Righteous', sans-serif ;
     letter-spacing: 0.4rem;
     cursor: pointer;
@@ -109,14 +107,13 @@ main{
 }
 
 .imagens{
-    width: 100%;
     display: flex;
     justify-content: space-around;
+    gap: 30px;
 } 
 
 img{
-    padding: 50px;
-    
+    width: 100%;
 }
 
 #paragrafos{
@@ -262,6 +259,7 @@ img{
     background-image: url("imagens/imagem3.jpg");
     border-radius: 5px;
  }
+ 
  
  
 

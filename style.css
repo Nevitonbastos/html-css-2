@@ -140,27 +140,23 @@ img{
     text-transform: uppercase;
 }
 
-.btn{
-    margin: 30px;
+.aulas{
+    margin: 30px auto;
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding: 15px;
+    font-size: 2.5rem;
 }
 
-.btn button{
-    min-width: 150px;
-    max-width: 350px;
-    height: 60px;
-    cursor: pointer;
-    border: 2px solid white;
-    color: #002fff;
-    background-color: #0421a1;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0,2rem;
-    border-radius: 10px;
-    box-sizing: border-box;
+.aulas a {
+    text-decoration: none;
+    color: rgba(19, 19, 190, 0.836);
 }
+
+.aulas a:hover{
+    color: white;
+}
+
 
  .btn a {
     padding: 5px;

@@ -137,23 +137,6 @@ img{
     text-transform: uppercase;
 }
 
-.aulas{
-    margin: 30px auto;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    font-size: 2.5rem;
-}
-
-.aulas a {
-    text-decoration: none;
-    color: rgba(19, 19, 190, 0.836);
-}
-
-.aulas a:hover{
-    color: white;
-}
-
 
  .btn a {
     padding: 5px;

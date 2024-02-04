@@ -60,6 +60,18 @@ main.principal{
     align-items: center;
 }
 
+.modal {
+    position: absolute;
+    left: 10px;
+    padding: 2px;
+}
+
+img{
+    border-radius: 5px ;
+}
+
+
+
 
 
 
@@ -68,13 +80,13 @@ main.principal{
     background-size: cover;
     color: #fff;
     border: 1px solid black; 
-    padding: 5px;
     width: 900px;
     height:400px;
     margin: 20px;
     display: flex;
     justify-content: flex-end;
     border-radius:10px ;
+    position: relative;
 }
 
 
@@ -83,7 +95,6 @@ main.principal{
     background-size: cover;
     color: #fff;
     border: 1px solid black; 
-    padding: 5px;
     width: 900px;
     height: 400px;
     margin: 20px;
@@ -98,7 +109,6 @@ main.principal{
     background-size: cover;
     color: #fff;
     border: 1px solid black; 
-    padding: 5px;
     width: 900px;
     height: 400px;
     margin: 20px;
@@ -112,7 +122,6 @@ main.principal{
     background-size: cover;
     color: #fff;
     border: 1px solid black; 
-    padding: 5px;
     width: 900px;
     margin: 20px;
     display: flex;

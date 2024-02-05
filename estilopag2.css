@@ -45,8 +45,15 @@ header a{
     border-radius: 10px;
 } 
 
+.title{
+    margin: auto;
+    width: 600px;
+    
+}
 
 h1{
+    border-bottom: 2px solid yellow;
+    line-height: 1.2em;
     color: white;
     text-align: center;
     margin-top: 30px;
@@ -58,78 +65,92 @@ main.principal{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
 }
 
-.modal {
-    position: absolute;
-    left: 10px;
-    padding: 2px;
+.title2{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 100%;
+    padding: 10px;
+    
 }
 
-img{
-    border-radius: 5px ;
+.t3{
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px ;
+    width: 100%;
+    padding: 10px;
 }
 
-
+h2{
+    border-bottom: 2px solid gold;
+}
 
 
 
 
 .picture{
-    background: linear-gradient(rgba(0, 0, 0, 0.678),rgb(163, 167, 165)),url("imagens/IMG_2050.jpg"),no-repeat ;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgba(16, 6, 70, 0.884)),url("imagens/IMG_2050.jpg"),no-repeat ;
     background-size: cover;
     color: #fff;
     border: 1px solid black; 
-    width: 900px;
-    height:400px;
-    margin: 20px;
-    display: flex;
-    justify-content: flex-end;
+    width: 1100px;
+    height:450px;
+    
     border-radius:10px ;
-    position: relative;
+    padding: 10px 10px 10px 10px;
+    gap: 20px;
 }
 
 
 .picture2{
-    background: linear-gradient(rgba(0, 0, 0, 0.678),rgb(163, 167, 165)),url("imagens/Aline\ Santos-25.jpg") no-repeat center;
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgba(40, 41, 1, 0.945)),url("imagens/Aline\ Santos-25.jpg") no-repeat center;
     background-size: cover;
     color: #fff;
     border: 1px solid black; 
-    width: 900px;
-    height: 400px;
-    margin: 20px;
-    display: flex;
-    justify-content: flex-start;
-    border-radius:10px ;
+    width: 1100px;
+    height: 450px;
+    border-radius:10px;
+    padding: 10px 10px 10px 10px;
     
 }
 
 .picture3{
-    background: linear-gradient(rgba(0, 0, 0, 0.678),rgb(163, 167, 165)),url("imagens/Krav_Maga_autocontrol.jpg") no-repeat top right;
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgba(40, 41, 1, 0.945)),url("imagens/Krav_Maga_autocontrol.jpg") no-repeat top right;
     background-size: cover;
     color: #fff;
     border: 1px solid black; 
-    width: 900px;
-    height: 400px;
-    margin: 20px;
-    display: flex;
-    justify-content: flex-start;
-    border-radius:10px ;
+    width: 1100px;
+    height: 450px;
+    border-radius: 10px ;
+    padding: 10px 10px 10px 10px;
 }
 
 .picture4{
-    background: linear-gradient(rgba(0, 0, 0, 0.678),rgb(163, 167, 165)),url("imagens/pilates.png") no-repeat center;
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgb(40, 41, 1, 0.945)),url("imagens/pilates.png") no-repeat center;
     background-size: cover;
     color: #fff;
     border: 1px solid black; 
-    width: 900px;
-    margin: 20px;
-    display: flex;
-    justify-content: flex-start;
+    width: 1100px;
+    height: 450px;
     border-radius:10px ;
+    padding: 10px 10px 10px 10px;
 }
 
- 
 
 
 

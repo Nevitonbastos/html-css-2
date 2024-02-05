@@ -41,7 +41,7 @@ header a{
     transition: all 0.5s;
 }
 .nav a:hover{
-    background-color: rgba(220, 220, 220, 0.521);
+    background-color: #2E3192;
     border-radius: 10px;
 } 
 
@@ -52,7 +52,7 @@ header a{
 }
 
 h1{
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid #ECB40B;
     line-height: 1.2em;
     color: white;
     text-align: center;
@@ -88,7 +88,7 @@ main.principal{
 }
 
 h2{
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid #ECB40B;
 }
 
 
@@ -98,7 +98,7 @@ h2{
     position: relative;
     display: flex;
     justify-content: flex-end;
-    background: linear-gradient(rgba(0, 0, 0, 0.678),rgba(16, 6, 70, 0.884)),url("imagens/IMG_2050.jpg"),no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgba(6, 2, 27, 0.884)),url("imagens/IMG_2050.jpg"),no-repeat ;
     background-size: cover;
     color: #fff;
     border: 1px solid black; 

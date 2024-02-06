@@ -26,69 +26,62 @@ footer{
     height: 400px;
 }
 
-
-.logo {
-    background-color: black;
-    height: 90px;
-    color: white;
-    font-size: 2.8rem;
-    padding: 20px;
-    font-family: 'Righteous', sans-serif ;
-    letter-spacing: 0.4rem;
-    cursor: pointer;
-
-}
-
-.logo p{
-    color: blue;
-    display: inline-block;
-    font-size: 2.8rem;
-}
-
-.menu{
-    text-transform: uppercase;
-    height: 100%;
+nav {
     display: flex;
-    position: relative;
-    bottom: 65px;
-    right: 60px;
-    justify-content: flex-end;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'Righteous', sans-serif;
     align-items: center;
-    font-size: 1.8rem;
-    margin: auto;
-}
- 
-.list-itens{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
 }
 
-.menu .list-itens a{
-    text-decoration: none;
-    color: white;
-    padding: 1.5rem;
-    transform: 2ms ease-in;
+.logo{
     position: relative;
+    top: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.p1{
+    font-size: 25px;
+    display: inline-block;
+    color: rgb(12, 12, 187);
     font-weight: bolder;
 }
 
-.menu .list-itens a::before {
-    content: " ";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0px;
-    height: 2px;
-    background-color: white;
-    transition: all 1.5s ease;
+.nav-itens{
+    position: relative;
+    top: 30px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.nav-itens a {
+    font-size: 1.5rem;
+    padding-left: 20px ;
+    color: white;
+    text-decoration: none;
 
 }
 
-.menu .list-itens a:hover:before {
-    width: 100px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 main{
     height: 60vh;
     margin: auto;
@@ -98,7 +91,7 @@ main{
 }
 
 .main-content{
-    margin-top: 100px;
+    margin-top: 200px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -107,18 +100,16 @@ main{
 }
 
 .imagens{
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
+    column-count: 3;
+    column-gap: 20px;
 } 
+
+
+
+
 
 img{
     width: 100%;
-}
-
-#paragrafos{
-    font-size: 2rem;
-    
 }
 
 .main-content h1{
@@ -189,63 +180,26 @@ img{
     color: white;
 }
 
- 
-.pictures{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    margin: auto;
+
+
+
+
+
+
+
+
+
+img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
- .p1,
- .p2,
- .p3,
- .p4,
- .p5,
- .p6,
- .p7{
-    background-image: url("imagens/Aline\ Santos-25.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 400px;
-    height: 300px;
-    border: solid  1px white;
-    margin: auto;
-    margin-bottom: 50px;
- }
+.painel-fotos{
+    column-count: 3;
+    column-gap: 10px;
+    margin: 30px;
 
- .p2{
-    background-image: url("imagens/Aline\ Santos-31.jpg");
-    border-radius: 5px;
-    
- }
- .p3{
-    background-image: url("imagens/Aline\ Santos-30.jpg");
-    border-radius: 5px;
- }
- .p4{
-    background-image: url("imagens/Aline\ Santos-12.jpg");
-    border-radius: 5px;
- }
-
- .p5{
-    background-image: url("imagens/Aline\ Santos-6.jpg");
-    border-radius: 5px;
- }
- .p6{
-    background-image: url("imagens/Aline\ Santos-22.jpg");
-    border-radius: 5px;
- }
- .p7{
-    background-image: url("imagens/imagem3.jpg");
-    border-radius: 5px;
- }
- 
- 
- 
-
+}
 
  table{
     font-size: 1.6rem;

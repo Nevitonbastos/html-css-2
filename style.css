@@ -39,17 +39,18 @@ nav {
 }
 
 .logo{
+    display: flex;
     position: relative;
     top: 30px;
-    font-size: 25px;
+    font-size: 2.8rem;
     font-weight: bolder;
     color: white;
+    gap: 10px;
+    margin: 10px;
 }
 .p1{
-    font-size: 25px;
-    display: inline-block;
-    color: rgb(12, 12, 187);
-    font-weight: bolder;
+    color: blue;
+    font-size: 2.8rem;
 }
 
 .nav-itens{
@@ -68,6 +69,8 @@ nav {
     text-decoration: none;
 
 }
+
+
 
 
 
@@ -103,6 +106,8 @@ main{
     column-count: 3;
     column-gap: 20px;
 } 
+
+
 
 
 

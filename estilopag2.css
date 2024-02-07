@@ -104,7 +104,6 @@ h2{
     border: 1px solid black; 
     width: 1100px;
     height:450px;
-    
     border-radius:10px ;
     padding: 10px 10px 10px 10px;
     gap: 20px;
@@ -149,6 +148,21 @@ h2{
     height: 450px;
     border-radius:10px ;
     padding: 10px 10px 10px 10px;
+}
+
+.picture1{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgba(6, 2, 27, 0.884)),url("imagens/karate.jpg"),no-repeat ;
+    background-size: cover;
+    color: #fff;
+    border: 1px solid black; 
+    width: 1100px;
+    height:450px;
+    border-radius:10px ;
+    padding: 10px 10px 10px 10px;
+    gap: 20px;
 }
 
 

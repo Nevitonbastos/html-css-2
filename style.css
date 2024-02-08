@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Righteous & display=swap');
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,6 +12,10 @@ html,body{
     font-size: 62.5%;
     color: black;
     font-family: 'Righteous', sans-serif ;
+}   
+
+:root {
+    --cor1 : #2E3192;
 }
 
 body{
@@ -26,49 +31,67 @@ footer{
     height: 400px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    font-family: 'Righteous', sans-serif;
-    align-items: center;
-    background-color: black;
+header{
     width: 100%;
     height: 100px;
-    padding: 10px;
+    background-color: black;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
 .logo{
     display: flex;
-    position: relative;
-    top: 30px;
-    font-size: 2.8rem;
-    font-weight: bolder;
-    color: white;
+    justify-content: center;
+    padding: 20px ;
+    font-size: 28px;
+    letter-spacing: 0.4rem;
     gap: 10px;
-    margin: 10px;
+    text-transform: uppercase;
 }
 .p1{
     color: blue;
-    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+
 }
 
 .nav-itens{
-    position: relative;
-    top: 30px;
-    list-style: none;
     display: flex;
-    gap: 30px;
-    
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 1.7rem;
+    letter-spacing: 0.4rem;
+    gap: 20px;
+    text-transform: uppercase;
 }
-
-.nav-itens a {
-    font-size: 1.5rem;
-    padding-left: 20px ;
-    color: white;
+ 
+.nav-itens li a {
+    list-style: none;
     text-decoration: none;
-
+    color: white;
+    padding: 20px;
+    transition: 0.3s ease-in;
+    font-weight: bold;
 }
+
+.nav-itens a:hover{
+    border-bottom: 1px solid;
+    color: #1a1e96;
+}
+
+
+
+
+
+
 
 
 
@@ -87,21 +110,19 @@ nav {
 
 main{
     height: 60vh;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .main-content{
     margin-top: 200px;
-    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
+
+h1{
+    color: white;
+}
 .imagens{
     column-count: 3;
     column-gap: 20px;
@@ -110,7 +131,9 @@ main{
 
 
 
-
+#img1{
+   
+}
 
 
 img{

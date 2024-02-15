@@ -22,7 +22,7 @@ html,body{
 }
 
 body{
-    background: linear-gradient(rgba(17,17,17,0.8),rgba(20,20,20,1)),url("imagens/Aline\ Santos-25.jpg") no-repeat center;
+    background: linear-gradient(rgba(8, 8, 8, 0.8),rgb(37, 37, 37)),url("imagens/Aline\ Santos-25.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -37,7 +37,7 @@ footer{
 header{
     width: 100%;
     height: 130px;
-    background-color: rgba(169, 169, 169, 0.315);
+    background-color: rgba(8, 8, 8, 0.8);
 }
 
 .container{
@@ -81,7 +81,7 @@ nav{
 }
 
 nav{
-    background-color: rgba(169, 169, 169, 0.315);
+    background-color: rgba(0,0,0);
 }
 .nav-itens{
     display: flex;
@@ -136,11 +136,24 @@ nav{
 }
 
 .card {
-    margin: 50px;
-    width: 450px;
-    height: 500px;
+    margin: 40px;
+    max-width: 300px;
+    height: 480px;
     border-radius: 10px;
-    background-color: rgb(158, 156, 156);
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.card h2{
+    margin: 10px;
+    border-bottom: solid 1px gold;
+    font-size: 25px;
+}
+
+.card p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 15px;
 }
 
 
@@ -163,8 +176,13 @@ b{
 
  .principal {
     margin: auto;
+    padding: 10px;
     border: 1px solid transparent; 
-    width: 800px;
+    max-width: 1100px;
+ }
+
+ .primcipal img{
+    width: 100%;
  }
 
  .principal img{
@@ -179,11 +197,11 @@ b{
 .btn button{
     margin: auto;
     margin-bottom: 10px;
-    min-width: 200px;
+    min-width: 150px;
     max-width: 650px;
     height: 50px;
     cursor: pointer;
-    border: solid 2px rgb(255, 255, 255);
+    border: solid 2px var(--cor1);
     background-color: #D8A617;
     text-transform: uppercase;
     border-radius: 10px;
@@ -197,6 +215,8 @@ b{
     font-weight: bolder;
     font-family: ;
 }
+
+
 
 .painel-fotos{
     column-count: 3;

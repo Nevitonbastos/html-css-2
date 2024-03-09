@@ -18,7 +18,8 @@ html,body{
 }   
 
 :root {
-    --cor1 : #2E3192;
+    --cor1 :    ;
+    --cor2 : #ECB719;
 }
 
 body{
@@ -81,7 +82,7 @@ nav{
 
 .nav-itens a:hover{
     border-bottom: 1px solid;
-    color: #000AFB;
+    color: var(--cor2);
 }
 
 
@@ -175,16 +176,20 @@ b{
     height: 50px;
     cursor: pointer;
     border: solid 2px var(--cor1);
-    background-color: #D8A617;
+    background-color: var(--cor1);
     text-transform: uppercase;
-    border-radius: 10px;
-    
+    border-radius: 5px;
+    transition: transform 200ms ease-in-out;
+}
+
+.btn button:hover{
+    transform: scale(1.07);
 }
 
 .btn a {
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bolder;
     font-family: ;
 }

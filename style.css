@@ -18,7 +18,7 @@ html,body{
 }   
 
 :root {
-    --cor1 :    ;
+    --cor1 : #2E3192;
     --cor2 : #ECB719;
 }
 
@@ -107,6 +107,10 @@ nav{
 
 .card img {
     width: 100%;
+    border-radius: 15px;
+}
+.card img:hover{
+    transform: scale(1.07);
 }
 
 .card {
@@ -116,6 +120,8 @@ nav{
     border-radius: 10px;
     background-color: transparent;
     border-radius: 15px;
+    transition: transform 200ms ease-in-out;
+    cursor: pointer;
 }
 
 .card h2{
@@ -155,7 +161,7 @@ b{
     max-width: 1100px;
  }
 
- .primcipal img{
+ .principal img{
     width: 100%;
  }
 
@@ -205,8 +211,8 @@ b{
 
 .painel-fotos img{
     width: 100%;
-    border-radius: 4px;
-    border: 1px solid blue;
+    border-radius: 20px;
+    box-shadow:  0 0 8px 1px var(--cor1), 4px 4px 8px 1px var(--cor2);
     margin-bottom: 10px;
 }
 

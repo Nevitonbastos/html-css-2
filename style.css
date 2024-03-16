@@ -158,16 +158,14 @@ b{
     margin: auto;
     padding: 10px;
     border: 1px solid transparent; 
-    max-width: 1100px;
+    max-width: 1000px;
+    
  }
 
  .principal img{
     width: 100%;
  }
 
- .principal img{
-    width: 100%;    
- }
 
 
 .btn{

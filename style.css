@@ -61,7 +61,6 @@ nav{
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    width: 100%;
     letter-spacing: 0.4rem;
     gap: 20px;
     text-transform: uppercase;
@@ -69,6 +68,7 @@ nav{
  
 .nav-itens li {
     list-style: none;
+    
 }
 
 .nav-itens a{
@@ -159,7 +159,7 @@ b{
     padding: 10px;
     border: 1px solid transparent; 
     max-width: 1000px;
-    
+
  }
 
  .principal img{
